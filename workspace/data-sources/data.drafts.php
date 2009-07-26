@@ -14,7 +14,7 @@
 		
 		public $dsParamFILTERS = array(
 				'1' => '{$entry}',
-				'5' => 'yes',
+				'5' => 'no',
 		);
 		
 		public $dsParamINCLUDEDELEMENTS = array(
@@ -34,10 +34,10 @@
 					 'name' => 'Drafts',
 					 'author' => array(
 							'name' => 'Stephen Bau',
-							'website' => 'http://home/sym/fluidgrids',
-							'email' => 'bauhouse@gmail.com'),
+							'website' => 'http://home/sym/barebones',
+							'email' => 'stephen@domain7.com'),
 					 'version' => '1.0',
-					 'release-date' => '2009-07-01T13:59:09+00:00');	
+					 'release-date' => '2009-07-26T20:07:42+00:00');	
 		}
 		
 		public function getSource(){
