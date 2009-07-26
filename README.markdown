@@ -8,7 +8,7 @@ The BareBones Ensemble repository brings together the [Symphony 2.0.4](http://gi
 
 ### Install from BareBones Ensemble ZIP Archive
 
-Go to the [Downloads](http://github.com/bauhouse/workspace/downloads) page to download the ZIP file. This is the simplest, if you want to avoid using Git altogether.
+Go to the [Downloads](http://github.com/bauhouse/sym-barebones/downloads) page to download the ZIP file. This is the simplest, if you want to avoid using Git altogether.
 
 ### Install BareBones Ensemble via Git
 
