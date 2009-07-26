@@ -14,16 +14,16 @@
 			return array(
 					 'name' => 'Save Comment',
 					 'author' => array(
-							'name' => 'Admin Admin',
-							'website' => 'http://localhost:8888/projects/legacy/symphony-2-beta',
-							'email' => 'admin@admin.com'),
+							'name' => 'Stephen Bau',
+							'website' => 'http://home/sym/barebones',
+							'email' => 'stephen@domain7.com'),
 					 'version' => '1.0',
-					 'release-date' => '2008-12-03T04:59:40+00:00',
+					 'release-date' => '2009-07-26T16:42:07+00:00',
 					 'trigger-condition' => 'action[save-comment]');	
 		}
 
 		public static function getSource(){
-			return '9';
+			return '4';
 		}
 
 		public static function allowEditorToParse(){
@@ -71,7 +71,7 @@
         <p>To edit an existing entry, include the entry ID value of the entry in the form. This is best as a hidden field like so:</p>
         <pre class="XML"><code>&lt;input name="id" type="hidden" value="23" /></code></pre>
         <p>To redirect to a different location upon a successful save, include the redirect location in the form. This is best as a hidden field like so, where the value is the URL to redirect to:</p>
-        <pre class="XML"><code>&lt;input name="redirect" type="hidden" value="http://localhost:8888/projects/legacy/symphony-2-beta/success/" /></code></pre>';
+        <pre class="XML"><code>&lt;input name="redirect" type="hidden" value="http://home/sym/barebones/success/" /></code></pre>';
 		}
 		
 		public function load(){			
